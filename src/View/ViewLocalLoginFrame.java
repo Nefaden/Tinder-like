@@ -2,7 +2,8 @@ package View;
 
 import javax.swing.*;
 
-public class viewLocalLoginFrame {
+public class ViewLocalLoginFrame {
     private JPanel MainJPanel;
     private JLabel JLabelLogin;
+    private JTextField textField1;
 }

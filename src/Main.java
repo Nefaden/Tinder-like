@@ -2,7 +2,7 @@ import java.io.FileInputStream;
 import java.io.InputStream;
 import java.sql.SQLException;
 
-public class main {
+public class Main {
 
     /**
      * @param args the command line arguments
@@ -20,7 +20,7 @@ public class main {
             prop.load(input);
 
             // get the property value and print it out
-            // Changer le dbdist en sgbd pour utiliser le main en local DB
+            // Changer le dbdist en sgbd pour utiliser le Main en local DB
             String driver = prop.getProperty("sgbd.driver");
             String jdbc = prop.getProperty("sgbd.jdbc");
             String pass = prop.getProperty("sgbd.pass");
